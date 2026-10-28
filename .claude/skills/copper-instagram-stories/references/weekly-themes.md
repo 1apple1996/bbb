@@ -90,7 +90,7 @@ Use questions from last week's question box when available; otherwise use the ba
 2. The before (same angle and light).
 3. What was done, one line, service as listed ("Custom extensions · sewn nano weft").
 4. Review card on mid/deep copper.
-5. Openings: "Two spots open Saturday" + countdown or link sticker to the exact service. If fully booked: "Booked this weekend. Reply 'NEXT' for next week."
+5. Availability: "Select times available Saturday" + countdown or link sticker to the exact service. If fully booked: "Fully booked this weekend. Reply 'NEXT' for next week." (Wording rules: brand.md, Availability language.)
 
 **Sticker:** link (+ countdown when there's a deadline). **Highlight:** Results, Reviews, Book.
 
@@ -107,7 +107,7 @@ Use questions from last week's question box when available; otherwise use the ba
 2. Process step, one line of why.
 3. Emoji slider ("Rate this melt") or poll.
 4. Optional: a second step or the finish preview (save the full reveal for Friday).
-5. Close: "Had a cancellation at 3:30, DM 'TODAY'" only if true; otherwise "Booking Wednesdays–Saturdays, link here."
+5. Close: "A 3:30 just became available. DM 'TODAY'" only if true; otherwise "Booking Wednesdays–Saturdays, link here."
 
 **Sticker:** emoji slider or poll. **Highlight:** Services.
 

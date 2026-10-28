@@ -45,6 +45,15 @@ Only show a price if Copper confirms it's current; "starting at" wording only.
 - No hype words ("obsessed!!!", "life-changing"), no pressure ("last chance!"), no emoji-heavy text. One tasteful symbol (✦) is fine.
 - Calls to action are invitations: "Reply 'LENGTH' and I'll send you times." "Start on the New Client page, link here."
 
+## Availability language
+
+Talk about availability like a sought-after specialist, never like someone with an empty book (Copper's rule). Present it as a service detail, clearly and calmly; don't fake scarcity.
+
+- **Use:** "Now booking Nov 11–14", "Available today · 2–7 p.m.", "Select times available Thursday", "Reserve your Friday", "Holiday appointments now booking", "Booking Wednesdays–Saturdays", "Reply 'BLONDE' and I'll send you times", "Next week's appointments post tomorrow".
+- **Never use:** "wide open", "completely open", "has room", "plenty of openings", "slow week", "lots of availability", "last-minute openings", "please book", "need clients", or anything that sounds like the book is empty.
+- Say "limited", "only a few left" or "almost booked" only when it's true that day.
+- "Fully booked today" is good when true; follow it with when Copper is next available.
+
 ## Color
 
 Use only these pairs for text. Ratios are WCAG contrast; body text needs 4.5:1, display text (72px+) needs 3:1.
