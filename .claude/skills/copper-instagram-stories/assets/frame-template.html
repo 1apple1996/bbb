@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Copper Story frame</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Montserrat:wght@400;500;600&display=swap">
+<style>
+  /* Brand tokens: see references/brand.md for approved text/background pairs. */
+  :root {
+    --espresso: #2B1D17; --cream: #F4ECE3; --sand: #E8D3C3; --cocoa: #4A3328;
+    --copper: #D08A57; --deep-copper: #8A4A22; --mid-copper: #B86B3A;
+    --warm-brown: #5A4438; --rule: #D8C3B1; --ivory: #FFF8F1;
+  }
+  body { margin: 0; background: #111; display: flex; flex-wrap: wrap; gap: 40px; padding: 40px; }
+
+  /* One frame = 1080x1920. Padding keeps everything inside the y=250–1580 safe band. */
+  .frame {
+    width: 1080px; height: 1920px; box-sizing: border-box; position: relative; overflow: hidden;
+    padding: 260px 96px 340px; display: flex; flex-direction: column; gap: 56px;
+    font-family: Montserrat, sans-serif;
+  }
+  .dark  { background: var(--espresso); color: var(--cream); }
+  .light { background: var(--cream); color: var(--espresso); }
+  .accent { background: var(--deep-copper); color: var(--cream); }
+
+  .eyebrow { margin: 0; font-size: 30px; font-weight: 600; letter-spacing: 8px; text-transform: uppercase; }
+  .dark .eyebrow { color: var(--copper); }
+  .light .eyebrow { color: var(--deep-copper); }
+  .accent .eyebrow { color: var(--sand); }
+
+  h1 { margin: 0; font-family: 'Cormorant Garamond', serif; font-weight: 500; font-size: 120px; line-height: 1; }
+  h1 em { font-style: italic; }
+  .body { margin: 0; font-size: 52px; line-height: 1.4; }
+  .dark .body { color: var(--sand); }
+  .light .body { color: var(--warm-brown); }
+
+  /* Full-bleed photo/video sits behind the text block when used. */
+  .media {
+    flex-grow: 1; border-radius: 28px; background: var(--cocoa); color: var(--sand);
+    display: flex; align-items: center; justify-content: center; text-align: center;
+    font-size: 32px; letter-spacing: 2px; padding: 40px;
+  }
+  /* Marks where Copper places the real sticker in the Instagram app. */
+  .sticker {
+    border: 4px dashed currentColor; border-radius: 24px; padding: 32px; opacity: .8;
+    font-size: 36px; text-align: center;
+  }
+  .signoff { display: flex; align-items: center; gap: 24px; margin-top: auto; }
+  .signoff .line { height: 2px; width: 120px; background: currentColor; }
+  .signoff p { margin: 0; font-size: 30px; font-weight: 600; letter-spacing: 4px; text-transform: uppercase; }
+  .disclosure { font-size: 34px; font-weight: 600; }
+</style>
+</head>
+<body>
+
+<!-- Example: hook frame (dark). Copy a <section> per frame and fill the slots. -->
+<section class="frame dark" aria-label="Frame 1">
+  <p class="eyebrow">Shelf Talk</p>
+  <div class="media">[CLIP: toner going on dark-blonde hair, 3 s]</div>
+  <h1>Why your blonde<br><em>turns brassy.</em></h1>
+</section>
+
+<!-- Example: value frame (light) with a sticker slot. -->
+<section class="frame light" aria-label="Frame 3">
+  <p class="eyebrow">The fix</p>
+  <h1>Tone at home,<br><em>once a week.</em></h1>
+  <p class="body">[PRODUCT NAME], five minutes, then rinse.</p>
+  <div class="sticker">POLL · "How often do you tone?" · Weekly / Never</div>
+  <div class="signoff"><div class="line"></div><p>Irvine Spectrum · House of Lange</p></div>
+</section>
+
+</body>
+</html>
