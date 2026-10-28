@@ -111,4 +111,4 @@ Weekly rhythm of backgrounds keeps the week cohesive: espresso for hooks and per
 
 - Reviews: real, verbatim, first name + last initial (e.g. "Vicki S."), with the client's permission and ideally the source (Google, Yelp).
 - Before/afters: same angle, distance and light; no filters; signed photo release on file.
-- Gifted or affiliate products: "Gifted by [Brand]" or "Ad" on the frame, high contrast.
+- Gifted or affiliate products: "Gifted by [Brand]" or "Ad" on the frame, high contrast. Copper will say when a product is gifted or affiliate; don't ask.

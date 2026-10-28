@@ -10,7 +10,7 @@ Every Monday at noon (Pacific) Copper gets a check-in asking for this week's mat
 >
 > 1. **Results:** any before/afters from last week you're proud of (client okayed for Instagram?)
 > 2. **Kind words:** a new review or client text you can share (first name + last initial)
-> 3. **Product:** one product you've been recommending, and is it gifted or affiliate?
+> 3. **Product:** one product you've been recommending (with a link or price if handy)
 > 4. **Questions clients asked** in the chair this week
 > 5. **You:** anything you did or got into off the clock (class, trip, spot, book, hobby)
 > 6. **Openings:** any gaps Wed–Sat this week, and anything already full?
@@ -34,7 +34,7 @@ Map each item to a day:
 | Process clips, consults | Sat · In the Chair |
 | Trend, inspo, openings for next week | Sun · Sunday Reset |
 
-Note for each item: client consent (yes/unknown), gifted/affiliate (yes/no), and any facts to confirm (price, NAHA wording, dates).
+Note for each item: client consent (yes/unknown) and any facts to confirm (price, NAHA wording, dates). Don't ask whether products are gifted or affiliate: Copper will say if one ever is; until then, no disclosure label.
 
 ## Then
 
