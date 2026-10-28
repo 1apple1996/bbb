@@ -13,6 +13,7 @@ Taglines: "Length, color, precision." · "Hair that looks lived-in and loved." �
 ## Facts you can use
 
 - Stylist at House of Lange, Irvine Spectrum Center. Tag **@houseoflange** and the Irvine Spectrum Center location on every sequence.
+- **Booking link for link stickers:** https://www.phorest.com/salon/houseoflangehairdesign/book/services?staffId=ATqW8r7LB3m2gUpDNF3KFw (Copper's Phorest booking page; use it for every "book" sticker).
 - Handle: **@copperaguirre**. Site: **copperaguirre.com** (New Client page routes to booking).
 - Books **Wednesday–Saturday, 10:15 a.m.–7 p.m.** (confirmed by Copper, Oct 2026). **Before making any Story that shows hours, openings or booking times, check the hours on copperaguirre.com; if the site can't be reached, ask Copper to confirm them.** Copper asked for this check.
 - Trained at the Douglas J. Aveda Institute, East Lansing, Michigan.
