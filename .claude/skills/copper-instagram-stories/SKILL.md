@@ -76,7 +76,7 @@ Where to build:
 - **If the Artifact tool can create Design canvases**: make one canvas per week titled "Copper Stories · Week of <Mon date>", one 1080x1920 artboard per frame, a title note per day, and rows by day. If a "Copper Aguirre Instagram Stories" canvas exists, match its look (it's the brand reference) rather than editing it.
 - **Otherwise**: copy `assets/frame-template.html` per frame (or one file with all frames stacked) and fill the slots.
 
-**Photo edits need Copper's approval.** After cropping, blurring or otherwise editing any photo or video still, show Copper the edited versions and wait for approval before putting them in frames. Copper asked for this.
+**Never crop into the hair.** Crops may only remove background; the whole head of hair, crown to ends, always stays in frame. If a background can't be cleaned up without cutting hair, ask Copper for different footage instead. **Photo edits need Copper's approval.** After cropping, blurring or otherwise editing any photo or video still, show Copper the edited versions and wait for approval before putting them in frames. Copper asked for this.
 
 Leave sticker areas empty in the design (Copper adds real stickers in the Instagram app); mark them with a dashed outline labelled with the sticker's wording so placement is clear.
 
