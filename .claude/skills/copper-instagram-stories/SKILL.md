@@ -110,6 +110,10 @@ node scripts/render_frames.js <canvas-folder>/project <blobs-folder> <out-folder
 
 `<blobs-folder>` holds each uploaded image named `<asset-id>.<ext>` (get missing ones with the Artifact tool's read action on the asset id). Dashed sticker guides are hidden in the PNGs; say which frames still need Copper's own clip or sticker, and re-check any openings frame against today's availability before sending.
 
+### 7c. Reminder timing
+
+Any reminder about filming or photographing a client's appointment must fire before that appointment starts. If the appointment begins before the planned reminder time, schedule the reminder for 15 minutes before the appointment instead. Check Copper's calendar for the day's first relevant appointment when setting it.
+
 ### 8. Learn from results
 
 When Copper shares Insights, log per sequence: reach as % of followers, frame-1 exits, completion to the last frame, sticker taps + replies, and link clicks. Once a month, re-rank which themes, stickers, call-to-action types and times work, and let Copper's own numbers override the defaults in `references/story-craft.md`.
