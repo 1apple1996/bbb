@@ -97,6 +97,16 @@ Go through each frame:
 
 Give Copper: the week (or day) at a glance, the canvas link or files, the shot list of what's still needed, and the posting times. Keep the chat summary short; the frames are the deliverable. Don't post or schedule anything to Instagram or Metricool unless Copper explicitly asks for that specific week.
 
+### 7b. Daily post-ready files
+
+Copper gets a reminder at 10:20 a.m. Pacific to post that day's Story. For it, render the day's frames to 1080x1920 PNGs with `scripts/render_frames.js` and send them in the chat for easy download:
+
+```bash
+node scripts/render_frames.js <canvas-folder>/project <blobs-folder> <out-folder> <file-prefix>...
+```
+
+`<blobs-folder>` holds each uploaded image named `<asset-id>.<ext>` (get missing ones with the Artifact tool's read action on the asset id). Dashed sticker guides are hidden in the PNGs; say which frames still need Copper's own clip or sticker, and re-check any openings frame against today's availability before sending.
+
 ### 8. Learn from results
 
 When Copper shares Insights, log per sequence: reach as % of followers, frame-1 exits, completion to the last frame, sticker taps + replies, and link clicks. Once a month, re-rank which themes, stickers, call-to-action types and times work, and let Copper's own numbers override the defaults in `references/story-craft.md`.
