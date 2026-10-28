@@ -33,7 +33,7 @@ Read these as needed rather than all at once:
 
 Use only material Copper provided or facts already in the references. Every client photo, review, product and price must be real. When something is missing, put a clear placeholder in the frame, like `[BEFORE/AFTER: dark brown to soft balayage]` or `[CLIENT REVIEW, first name + last initial]`, and list it in the shot list. Never write a testimonial, invent a price, or make up a client result: fake or AI-written reviews are illegal under the FTC rule in force since October 2024, and Mia picks stylists on trust.
 
-If the conversation has a week's intake (from the Monday check-in), use it. If Metricool tools are connected, `getBestTimeToPostByNetwork` for Instagram can replace the default posting times.
+If the conversation has a week's intake (from the Monday check-in), use it. Before any frame shows hours, openings or booking times, check Copper's hours on copperaguirre.com (or ask Copper if the site can't be reached) and ask for current availability; never reuse old openings. If Metricool tools are connected, `getBestTimeToPostByNetwork` for Instagram can replace the default posting times.
 
 ### 3. Plan the week
 

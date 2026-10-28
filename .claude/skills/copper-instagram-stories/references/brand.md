@@ -14,7 +14,7 @@ Taglines: "Length, color, precision." · "Hair that looks lived-in and loved." �
 
 - Stylist at House of Lange, Irvine Spectrum Center. Tag **@houseoflange** and the Irvine Spectrum Center location on every sequence.
 - Handle: **@copperaguirre**. Site: **copperaguirre.com** (New Client page routes to booking).
-- Books **Wednesday–Saturday, 10:15 a.m.–7 p.m.**
+- Books **Wednesday–Saturday, 10:15 a.m.–7 p.m.** (confirmed by Copper, Oct 2026). **Before making any Story that shows hours, openings or booking times, check the hours on copperaguirre.com; if the site can't be reached, ask Copper to confirm them.** Copper asked for this check.
 - Trained at the Douglas J. Aveda Institute, East Lansing, Michigan.
 - Recognized by the North American Hairstyling Awards (NAHA) for extensions while in school. **Leave NAHA off all Stories for now** (Copper's call, Oct 2026). Only use it once Copper confirms the exact category and year and says to bring it back.
 - Extensions, vegan color and keratin smoothing since 2016 (as stated on the existing "Meet Copper" Story).
