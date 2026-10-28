@@ -18,6 +18,7 @@ Read these as needed rather than all at once:
 - `references/weekly-themes.md`: the seven daily themes with frame-by-frame skeletons, stickers and calls to action. Read when planning a day or week.
 - `references/story-craft.md`: sequence length, safe zones, type sizes, stickers, posting times, Highlights, shooting hair, compliance, metrics. Read before designing frames.
 - `references/monday-intake.md`: the Monday check-in message and how to file what Copper sends. Read when it's Monday intake or Copper sends new material.
+- `references/reviews.md`: the queue of real reviews (verbatim), what each pairs with, and which are used. Read before any proof or review frame; mark a review used once it's placed.
 - `assets/frame-template.html`: a 1080x1920 frame template in the brand system, used when no design canvas tool is available.
 
 ## Workflow
