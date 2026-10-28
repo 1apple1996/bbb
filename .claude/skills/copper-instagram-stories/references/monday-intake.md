@@ -4,7 +4,7 @@ Every Monday at noon (Pacific) Copper gets a check-in asking for this week's mat
 
 ## The check-in message
 
-Keep it short, friendly and specific to the coming week. Use this shape, adjusting the examples to the week (season, last week's gaps, upcoming holidays):
+**Ask one question at a time** (Copper's preference): send question 1, wait for the reply, file it, then send the next. Keep each one short and specific to the coming week (season, last week's gaps, upcoming holidays). The full list, in order:
 
 > Hi Copper, it's Stories planning time for the week of **[Mon date]**. Send whatever's easy, photos, clips, voice notes or a few words:
 >
@@ -16,7 +16,7 @@ Keep it short, friendly and specific to the coming week. Use this shape, adjusti
 > 6. **Openings:** any gaps Wed–Sat this week, and anything already full?
 > 7. **Inspo:** any trend, look or account you've been loving
 >
-> Short on time? Just send openings and one photo, and I'll build the rest from your library.
+> (With the first question, mention once: "Short on time? Say 'skip' to any question, or just send openings and one photo.")
 
 If last week's results are known, add one line on what worked ("Thursday's heatless-waves poll got the most replies").
 

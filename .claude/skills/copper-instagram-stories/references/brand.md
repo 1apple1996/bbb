@@ -16,7 +16,7 @@ Taglines: "Length, color, precision." · "Hair that looks lived-in and loved." �
 - Handle: **@copperaguirre**. Site: **copperaguirre.com** (New Client page routes to booking).
 - Books **Wednesday–Saturday, 10:15 a.m.–7 p.m.**
 - Trained at the Douglas J. Aveda Institute, East Lansing, Michigan.
-- Recognized by the North American Hairstyling Awards (NAHA) for extensions while in school. **Confirm the exact category and year with Copper before putting NAHA wording on a frame**; until then say "NAHA-recognized for extension work" only if Copper has approved it.
+- Recognized by the North American Hairstyling Awards (NAHA) for extensions while in school. **Leave NAHA off all Stories for now** (Copper's call, Oct 2026). Only use it once Copper confirms the exact category and year and says to bring it back.
 - Extensions, vegan color and keratin smoothing since 2016 (as stated on the existing "Meet Copper" Story).
 - Free Hair & Scalp (Tricho-Derm) analysis is on the House of Lange menu: a no-cost first step for new clients.
 
