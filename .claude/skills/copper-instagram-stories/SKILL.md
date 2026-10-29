@@ -79,6 +79,8 @@ Where to build:
 
 **Before/after standard** (Copper's approved example, Nov 2026): one side-by-side image, before left and after right, no gap, same height. Both sides show the whole head of hair, crown to ends, at a similar scale and angle. Backgrounds are softly blurred with the hair kept sharp (`scripts/soften_background.py`, default blur 9). Adjust exposure only as needed (e.g. the after 10% darker so blonde ribbons read against the base). Then crop only background (people, TVs, clutter) and place it in a frame under a short serif headline. Video stills come from the clip's best moment, not a mid-motion blur.
 
+**Use video whenever Copper has a clip.** Mark the media panel `data-video="<name>"` (clip saved as `<name>.mp4`) and export that frame as an MP4 with `scripts/compose_video.py` after `render_frames.js`; the clip is scaled to fit, never cropped. A vertical clip can fill the whole frame; when it shows hair, keep text off the hair (put the text below a shorter video panel rather than on a card over the lengths). Text cards over full-screen video are fine for product or non-hair clips.
+
 **Never crop into the hair.** Crops may only remove background; the whole head of hair, crown to ends, always stays in frame. If a background can't be cleaned up without cutting hair, ask Copper for different footage instead. **Photo edits need Copper's approval.** After cropping, blurring or otherwise editing any photo or video still, show Copper the edited versions and wait for approval before putting them in frames. Copper asked for this.
 
 Leave sticker areas empty in the design (Copper adds real stickers in the Instagram app); mark them with a dashed outline labelled with the sticker's wording so placement is clear.
@@ -102,7 +104,7 @@ Give Copper: the week (or day) at a glance, the canvas link or files, the shot l
 
 ### 7b. Daily post-ready files
 
-Copper gets a reminder at 10:20 a.m. Pacific to post that day's Story. For it, render the day's frames to 1080x1920 PNGs with `scripts/render_frames.js` and send them in the chat for easy download:
+Copper gets a reminder at 10:20 a.m. Pacific to post that day's Story. For it, render the day's frames to 1080x1920 PNGs with `scripts/render_frames.js` (and MP4s with `scripts/compose_video.py` for video frames) and send them in the chat for easy download:
 
 ```bash
 node scripts/render_frames.js <canvas-folder>/project <blobs-folder> <out-folder> <file-prefix>...

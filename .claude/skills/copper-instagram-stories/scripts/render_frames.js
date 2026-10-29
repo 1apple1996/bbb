@@ -42,6 +42,29 @@ const { chromium } = require('playwright');
     await page.waitForTimeout(300);
     const out = path.join(outDir, f.replace('.dc.html', '.png'));
     await page.screenshot({ path: out, clip: { x: 0, y: 0, width: 1080, height: 1920 } });
+    // Panels marked data-video="<name>" get a real clip composited in by compose_video.py.
+    const slots = await page.evaluate(() =>
+      [...document.querySelectorAll('[data-video]')].map((el) => {
+        const r = el.getBoundingClientRect();
+        return {
+          video: el.dataset.video,
+          x: Math.round(r.x), y: Math.round(r.y), w: Math.round(r.width), h: Math.round(r.height),
+          radius: parseFloat(getComputedStyle(el).borderTopLeftRadius) || 0,
+        };
+      })
+    );
+    if (slots.length) {
+      fs.writeFileSync(out.replace('.png', '.video.json'), JSON.stringify(slots, null, 2));
+      // A transparent copy of everything except the video panel and backgrounds, laid over the clip
+      // so text cards can sit on top of full-screen video.
+      await page.evaluate(() => {
+        for (const el of document.querySelectorAll('[data-video]')) el.style.visibility = 'hidden';
+        document.body.style.background = 'transparent';
+        const root = document.querySelector('x-dc > div') || document.body.firstElementChild;
+        if (root) root.style.background = 'transparent';
+      });
+      await page.screenshot({ path: out.replace('.png', '.overlay.png'), clip: { x: 0, y: 0, width: 1080, height: 1920 }, omitBackground: true });
+    }
     fs.unlinkSync(tmp);
     console.log(out);
   }
