@@ -106,7 +106,7 @@ Give Copper: the week (or day) at a glance, the canvas link or files, the shot l
 
 ### 7b. Daily post-ready files
 
-Copper gets a reminder at 10:20 a.m. Pacific to post that day's Story. For it, render the day's frames to 1080x1920 PNGs with `scripts/render_frames.js` (and MP4s with `scripts/compose_video.py` for video frames) and send them in the chat for easy download:
+Every evening at about 9:40 p.m. Pacific, Copper gets the NEXT day's Story (Copper's preference: the night before). Render that day's frames to 1080x1920 PNGs with `scripts/render_frames.js` (and MP4s with `scripts/compose_video.py` for video frames) and send them in the chat for easy download:
 
 ```bash
 node scripts/render_frames.js <canvas-folder>/project <blobs-folder> <out-folder> <file-prefix>...
