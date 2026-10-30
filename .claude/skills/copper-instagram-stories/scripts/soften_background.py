@@ -7,9 +7,20 @@ The subject mask is dilated a little and feathered so flyaways stay sharp and th
 doesn't look cut out.
 """
 import argparse
+import io
 
-from PIL import Image, ImageEnhance, ImageFilter
+from PIL import Image, ImageCms, ImageEnhance, ImageFilter, ImageOps
 from rembg import new_session, remove
+
+
+def to_srgb(im):
+    """Phone photos are often Display P3; saving them without that profile dulls the color."""
+    icc = im.info.get("icc_profile")
+    im = ImageOps.exif_transpose(im).convert("RGB")
+    if icc:
+        src = ImageCms.ImageCmsProfile(io.BytesIO(icc))
+        im = ImageCms.profileToProfile(im, src, ImageCms.createProfile("sRGB"))
+    return im
 
 
 def main():
@@ -20,7 +31,7 @@ def main():
     p.add_argument("--blur", type=float, default=9, help="background blur radius in px")
     a = p.parse_args()
 
-    im = Image.open(a.src).convert("RGB")
+    im = to_srgb(Image.open(a.src))
     mask = remove(im, session=new_session("isnet-general-use"), only_mask=True, post_process_mask=True)
     mask = mask.convert("L").filter(ImageFilter.MaxFilter(9)).filter(ImageFilter.GaussianBlur(6))
     out = Image.composite(im, im.filter(ImageFilter.GaussianBlur(a.blur)), mask)
