@@ -100,6 +100,7 @@ Go through each frame:
 - Real material or a clearly marked placeholder; no invented reviews, prices or results; NAHA wording matches what's confirmed.
 - Services named exactly as listed; extension methods in priority order.
 - Disclosure on gifted/affiliate frames; captions on talking clips; client consent noted for any client photo.
+- Files sent to Copper show no dashed sticker outlines (open every PNG and a frame of every MP4 to check); the outlines live only on the design board.
 - Each day has exactly one main action, and the week has no more than two hard-sell days (Fri, Sun) plus soft closes.
 
 ### 7. Deliver
