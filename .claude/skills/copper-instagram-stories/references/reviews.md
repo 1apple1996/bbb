@@ -8,8 +8,8 @@ Real 5-star reviews Copper shared, quoted word for word. On a frame, credit firs
 | Karla S. | Aug 22, 2025 | Color / lightening reveals | Planned Fri 11/6 |
 | Maya H. | Feb 13, 2025 | Blowouts, styling, first-visit nerves | Suggested: blowout-sectioning styling day |
 | Melissa D. | Nov 12, 2025 | Consultations, Ask Copper | Used Fri 10/30 |
-| Sara K. | Apr 17, 2025 | Toning, root touch-ups | Queued |
-| Christina P. | Mar 12, 2025 | Long haircuts, layers | Queued |
+| Sara K. | Apr 17, 2025 | Toning, root touch-ups | Sent for Fri 11/13 |
+| Christina P. | Mar 12, 2025 | Long haircuts, layers | Sent for Fri 11/13 |
 | Keem E. | Jan 23, 2025 | Haircuts, precision, listening | Queued |
 | Marc N. | Mar 28, 2025 | Men's cuts, lighthearted proof | Queued |
 
