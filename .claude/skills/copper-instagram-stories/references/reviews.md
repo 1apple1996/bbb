@@ -10,8 +10,8 @@ Real 5-star reviews Copper shared, quoted word for word. On a frame, credit firs
 | Melissa D. | Nov 12, 2025 | Consultations, Ask Copper | Used Fri 10/30 |
 | Sara K. | Apr 17, 2025 | Toning, root touch-ups | Sent for Fri 11/13 |
 | Christina P. | Mar 12, 2025 | Long haircuts, layers | Sent for Fri 11/13 |
-| Keem E. | Jan 23, 2025 | Haircuts, precision, listening | Queued |
-| Marc N. | Mar 28, 2025 | Men's cuts, lighthearted proof | Queued |
+| Keem E. | Jan 23, 2025 | Haircuts, precision, listening | Sent for Fri 11/20 |
+| Marc N. | Mar 28, 2025 | Men's cuts, lighthearted proof | Sent for Fri 11/20 |
 
 ## Full text
 
